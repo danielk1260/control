@@ -6,10 +6,13 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "fix-path": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "web-vitals": "1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +37,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "guppy": {
+    "id": "2c91f7c0-62ad-11eb-ba0d-0308174c4dd3",
+    "name": "control",
+    "type": "create-react-app",
+    "color": "#C51162",
+    "icon": "./static/media/icon_fist.ce991694.jpg",
+    "createdAt": 1611978148162
   }
 }

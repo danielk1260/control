@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { Segment, Container } from "semantic-ui-react";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Segment stacked>
+        Nombre: {props.name} - Pais: Mexico - Edad: 30 años.
+      </Segment>
+    </Container>
   );
-}
+};
 
 export default App;
